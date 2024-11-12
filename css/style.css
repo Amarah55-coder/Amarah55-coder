@@ -1,0 +1,77 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../assets/font/Poppins-Black.ttf) format('.ttf');
+}
+
+h1,h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:maroon
+}
+
+p,ol,ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    body{
+        background-color: antiquewhite;
+        .total{
+            height: auto;
+            margin: 20vh;
+            padding: 50px;
+            background-color: #fff;
+            border-radius: 25px;
+            img{
+                border-radius: 10px;
+            }
+            .text-content{
+                padding:50px 10px ;
+                letter-spacing: 1px;
+                h1{
+                    padding: 0 0 30px;
+                    font-size: 1.5em;
+                    color: black;
+                }
+                .Preparation{
+                    margin: 30px auto;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: auto;
+                    background-color: antiquewhite;
+                    align-items: center;
+
+                    h3{
+                        margin: 0;
+                        padding: 20px 20px;
+                        text-align: left;
+                    }
+                    ul{
+                        /* margin: 10px; */
+                        padding: 0px 20px 20px 0;
+                        line-height: 1.5em;
+                        list-style: none;
+                        li{
+                            margin: 20px 0 0 50px;
+                            padding: auto;
+                        }
+                        li::before {content: "•"; 
+                            color: maroon;
+                            display: inline-block; 
+                            width: 1em;
+                            margin-left: -1em
+                        }
+                    }
+                }
+                .Ingredient{
+                    margin: auto;
+                    h2{
+
+                    }
+                }
+
+            }
+        }
+    }
+}

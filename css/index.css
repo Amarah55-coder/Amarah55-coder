@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    body{
+        color:black;
+        background: rgb(254, 212, 157);
+        header{
+            position: relative;
+            /* display: flex; */
+            nav{
+                margin: auto;
+                padding: 25px 100px 0 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .logo{
+                    color: black;
+                    font-size: 1.5em;
+                    font-weight: 700;
+                }
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 50px;
+                    list-style: none;
+                    float: right;
+                    flex-wrap: wrap;
+                    li{
+                        display: inline;
+                        a{
+                            color: black;
+                            font-size: 1em;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
