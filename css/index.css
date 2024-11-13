@@ -8,13 +8,14 @@
         background: rgb(254, 212, 157);
         header{
             position: relative;
-            /* display: flex; */
+            width:100%;
             nav{
                 margin: auto;
                 padding: 25px 100px 0 100px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+
                 .logo{
                     color: black;
                     font-size: 1.5em;
@@ -34,7 +35,29 @@
                             font-size: 1em;
                             text-decoration: none;
                         }
+                        a:hover{
+                            color: #fff;
+                        }
                     }
+                }
+            }
+            .header-text-content{
+                position: relative;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 15vh;
+                padding: 25px 100px 0 100px;
+                align-items: center;
+                span{
+                    font-size: 2.5em;
+                    font-weight: bold;
+                    color: maroon;
+                    text-align: left;
+                    padding: 0 205px 0 0;
+                }
+                p{
+                    color: black;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                 }
             }
         }
